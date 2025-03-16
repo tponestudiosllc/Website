@@ -129,6 +129,17 @@ html {
   padding: 20px; /* Adjust the height as needed */
 }
 
+/* Ensure video backgrounds are not clickable */
+.cs-background-video {
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Ensure video overlays are not clickable */
+.cs-video-overlay {
+  pointer-events: none;
+  user-select: none;
+}
 
 /*-- -------------------------- -->
 <---      Dark Mode Toggle      -->

@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Pone Studios</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <img src="./images/logo3.png" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav" role="navigation">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" aria-label="mobile menu toggle">
+                <div class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1" aria-hidden="true"></span>
+                    <span class="cs-line cs-line2" aria-hidden="true"></span>
+                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                </div>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                    <li class="cs-li">
+                        <a href="index.html" class="cs-li-link cs-active">
+                            Home
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="about.html" class="cs-li-link">
+                            About
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="services.html" class="cs-li-link">
+                            Services
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="pricing.html" class="cs-li-link">
+                            Pricing
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="studio-magic.html" class="cs-li-link">
+                            Studio Magic
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="studio-impact-initiative.html" class="cs-li-link">
+                            Studio Impact Initiative
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="faq.html" class="cs-li-link">
+                            FAQ
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="contact.html" class="cs-li-link">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Add the "Contact Us" button back to the navigation bar -->
+        <!-- <a href="contact.html" class="cs-button-solid cs-nav-button desktop-only">Contact Us</a> -->
+        <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+        <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+            <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+            <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+        </button> -->
+    </div>
+</header>
+
+
+
+
+
+<!-- ============================================ -->
+<!--                  Pricing                     -->
+<!-- ============================================ -->
+
+<section id="pricing-357">
+    <div class="cs-video-overlay"></div>
+    <video class="cs-background-video" autoplay muted loop>
+        <source src="https://res.cloudinary.com/divdez0bg/video/upload/v1741907760/line-video-3_j0d7wt.webm" type="video/mp4">
+        <source src="https://res.cloudinary.com/divdez0bg/video/upload/v1741907760/line-video-3_j0d7wt.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+    <div class="cs-background">
+        <div class="video-top-gradient"></div>
+        <div class="video-bottom-gradient"></div>
+    </div>
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-padding"></div> <!--Add this div for padding-->
+            <span class="cs-topper">Pricing</span>
+            <h2 class="cs-title">Choose Your Plan</h2>
+            <p class="cs-text">
+                Get a high-quality website tailored to your business needs. All plans include hosting, maintenance, and security.
+            </p>
+        </div>
+        <ul class="cs-card-group cs-center">
+            <!-- Option 1 -->
+            <li class="cs-item">
+                <h3 class="cs-h3">Creative Studio</h3>
+                <p class="cs-item-text">
+                    A one-time setup fee plus $25 per month for ongoing maintenance.
+                </p>
+                <div class="cs-option-group">
+                    <span class="cs-price">$3,800<span class="cs-small">/one time fee</span></span>
+                </div>
+                <span class="cs-included">Package Includes</span>
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        Design And Development
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        $25/mo Hosting
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        $100 fee Per Page after 5
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        +$50/mo Unlimited Edits Add-on
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        +$250 To Add A Blog
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        $30/year for domain name
+                    </li>
+                    <li class="cs-li cs-disabled">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        Lifetime Updates
+                    </li>
+                </ul>
+                <a href="contact.html" class="cs-button-solid">Get Started</a>
+            </li>
+            <!-- Option 2 -->
+            <li class="cs-item cs-popular">
+                <h3 class="cs-h3">Monthly Studio</h3>
+                <p class="cs-item-text">
+                    Get a custom website and ongoing maintenance to help your startup thrive, with a minimum 6-month commitment.
+                </p>
+                <div class="cs-option-group">
+                    <span class="cs-price">$175<span class="cs-small">/month</span></span>
+                </div>
+                <span class="cs-included">Package Includes</span>
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        Design And Development
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        Includes Hosting
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        $100 fee Per Page After 5
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        +$250 To Add A Blog
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        $30/year for domain name
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        Unlimited Edits
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        Lifetime Updates
+                    </li>
+                </ul>
+                <a href="contact.html" class="cs-button-solid">Get Started</a>
+            </li>
+            <!-- Option 3 -->
+            <li class="cs-item">
+                <h3 class="cs-h3">Studio Magic</h3>
+                <p class="cs-item-text">
+                    A fully automated SEO system that optimizes, ranks, and grows your business.
+                </p>
+                <div class="cs-option-group">
+                    <span class="cs-price">$750<span class="cs-small">/month</span></span>
+                </div>
+                <span class="cs-included">Package Includes</span>
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        Everything in Monthly Studio
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        SEO Performance Tracking
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        Site Audits & Optimization
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        Keyword Research & Strategy
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        Backlink Analysis & Buildings
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        Content Optimization & AI Assistance
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        Client Dashboard
+                    </li>
+                </ul>
+                <a href="contact.html" class="cs-button-solid">Get Started</a>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+
+
+<!-- ============================================ -->
+<!--                  Add-Ons                     -->
+<!-- ============================================ -->
+<section id="pricing-357">
+    <div class="cs-video-overlay"></div>
+    <video class="cs-background-video" autoplay muted loop>
+        <source src="https://res.cloudinary.com/divdez0bg/video/upload/v1741907761/space-video-1_g7ngto.webm" type="video/mp4">
+        <source src="https://res.cloudinary.com/divdez0bg/video/upload/v1741907761/space-video-1_g7ngto.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+    <div class="cs-background">
+        <div class="video-top-gradient"></div>
+        <div class="video-bottom-gradient"></div>
+    </div>
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-padding"></div> <!--Add this div for padding-->
+            <h2 class="cs-title">Additional Plans & Add-Ons</h2>
+            <p class="cs-text">
+                Enhance your website with custom add-ons and extra features.
+            </p>
+        </div>
+        <ul class="cs-card-group cs-center">
+            <!-- Option 1 -->
+            <li class="cs-item">
+                <h3 class="cs-h3">Design Studio</h3>
+                <p class="cs-item-text">
+                    Get expert guidance on website design to create a visually stunning and user-friendly online presence tailored to your brand.
+                </p>
+                <div class="cs-option-group">
+                    <span class="cs-price">$50<span class="cs-small">/per each design</span></span>
+                </div>
+                <span class="cs-included">Package Includes</span>
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        Custom Website Design
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        Responsive Design for All Devices
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        User-Friendly Interface Design
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        Tailored Visual Style for Your Brand
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        Consultation Sessions
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        Revisions and Edits Included
+                    </li>
+                </ul>
+                <a href="contact.html" class="cs-button-solid">Get Started</a>
+            </li>
+            <!-- Option 3 -->
+            <li class="cs-item">
+                <h3 class="cs-h3">Add-ons</h3>
+                <p class="cs-item-text">
+                    Boost your website with add-ons like unlimited edits, blogs, and advanced SEO features to enhance functionality and performance.
+                </p>
+                <div class="cs-option-group">
+                    <span class="cs-price">Custom Pricing
+                </div>
+                <span class="cs-included">One-time fee add-ons for any pricing plan</span>
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        $100 fee Per Page after 5
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        $250 To Add A Blog
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        $300 Custom Logo Design
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        $250 Dark Mode Integration
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        $200 Social Media Integration
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-li-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Pricing/check-blue.svg" alt="check mark" width="20" height="20">
+                        $150 Google Maps Integration
+                    </li>
+                </ul>
+                <a href="contact.html" class="cs-button-solid">Get Started</a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+<!-- ============================================ -->
+<!--                     CTA                      -->
+<!-- ============================================ -->
+
+<section id="cta-1071">
+    <div class="cs-video-overlay"></div>
+    <video class="cs-background-video" autoplay muted loop>
+        <source src="https://res.cloudinary.com/divdez0bg/video/upload/v1741907761/space-video-2_fnh76r.webm" type="video/mp4">
+        <source src="https://res.cloudinary.com/divdez0bg/video/upload/v1741907761/space-video-2_fnh76r.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+    <div class="cs-background">
+        <div class="video-top-gradient"></div>
+        <div class="video-bottom-gradient"></div>
+    </div>
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex">
+                <span class="cs-topper">Start Your Journey with Us</span>
+                <h2 class="cs-title">Have Any Questions?</h2>
+            </div>
+            <div class="cs-button-box">
+                <a href="contact.html" class="cs-button-solid">Contact Us</a>
+                <a href="index.html" class="cs-button-transparent">Home</a>
+            </div>
+        </div>
+    </div>
+</section>
+                                
+
+
+<!-- ============================================ -->
+<!--                  Footer                      -->
+<!-- ============================================ -->
+
+<footer id="footer-1390">
+    <div class="cs-container">
+        <div class="cs-top">
+            <a aria-label="go back to home" class="cs-logo" href="">
+                <img class="cs-logo-img" loading="lazy" decoding="async" src="https://res.cloudinary.com/divdez0bg/image/upload/v1741982961/logo3_vb7d4n.png" alt="logo" width="209" height="40">
+            </a>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <a href="index.html" class="cs-link">Home</a>
+                </li>
+                <li class="cs-li">
+                    <a href="about.html" class="cs-link">About</a>
+                </li>
+                <li class="cs-li">
+                    <a href="services.html" class="cs-link">Services</a>
+                </li>
+                <li class="cs-li">
+                    <a href="pricing.html" class="cs-link">Pricing</a>
+                </li>
+                <li class="cs-li">
+                    <a href="studio-magic.html" class="cs-link">Studio Magic</a>
+                </li>
+                <li class="cs-li">
+                    <a href="studio-impact-initiative.html" class="cs-link">Studio Impact Initiative</a>
+                </li>
+                <li class="cs-li">
+                    <a href="faq.html" class="cs-link">FAQ</a>
+                </li>
+                <li class="cs-li">
+                    <a href="contact.html" class="cs-link">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="cs-bottom">
+            <div class="cs-flex">
+                <a href="" class="cs-copyright-link">Website created by</a>
+                <span class="cs-separater">|</span>
+                <a href="" class="cs-copyright-link">T-Pone Studios LLC</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

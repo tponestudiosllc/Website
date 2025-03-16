@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Pone Studios</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <img src="./images/logo3.png" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav" role="navigation">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" aria-label="mobile menu toggle">
+                <div class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1" aria-hidden="true"></span>
+                    <span class="cs-line cs-line2" aria-hidden="true"></span>
+                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                </div>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                    <li class="cs-li">
+                        <a href="index.html" class="cs-li-link cs-active">
+                            Home
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="about.html" class="cs-li-link">
+                            About
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="services.html" class="cs-li-link">
+                            Services
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="pricing.html" class="cs-li-link">
+                            Pricing
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="studio-magic.html" class="cs-li-link">
+                            Studio Magic
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="studio-impact-initiative.html" class="cs-li-link">
+                            Studio Impact Initiative
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="faq.html" class="cs-li-link">
+                            FAQ
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="contact.html" class="cs-li-link">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Add the "Contact Us" button back to the navigation bar -->
+        <!-- <a href="contact.html" class="cs-button-solid cs-nav-button desktop-only">Contact Us</a> -->
+        <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+        <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+            <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+            <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+        </button> -->
+    </div>
+</header>
+
+
+
+<!-- ============================================ -->
+<!--                 About                        -->
+<!-- ============================================ -->
+
+<section id="sbsr-1592">
+    <div class="cs-padding"></div> <!--Add this div for padding-->
+    <div class="cs-video-overlay"></div>
+    <video class="cs-background-video" autoplay muted loop>
+        <source src="https://res.cloudinary.com/divdez0bg/video/upload/v1741907761/space-video-1_g7ngto.webm" type="video/mp4">
+        <source src="https://res.cloudinary.com/divdez0bg/video/upload/v1741907761/space-video-1_g7ngto.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+    <div class="cs-background">
+        <div class="video-top-gradient"></div>
+        <div class="video-bottom-gradient"></div>
+    </div>
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <!--Top left image-->
+            <picture class="cs-picture cs-picture1">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://res.cloudinary.com/divdez0bg/image/upload/v1742155401/me-photo_o41z5z.png">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://res.cloudinary.com/divdez0bg/image/upload/v1742155401/me-photo_o41z5z.png">
+                <img loading="lazy" decoding="async" src="https://res.cloudinary.com/divdez0bg/image/upload/v1742155401/me-photo_o41z5z.png" alt="mechanic" width="413" height="500">
+            </picture>
+            <!--Top Right image-->
+            <picture class="cs-picture cs-picture2">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://res.cloudinary.com/divdez0bg/image/upload/v1741997950/pexels-ken-tomita-127057-389818_cbhykx.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://res.cloudinary.com/divdez0bg/image/upload/v1741997950/pexels-ken-tomita-127057-389818_cbhykx.jpg">
+                <img loading="lazy" decoding="async" src="https://res.cloudinary.com/divdez0bg/image/upload/v1741997950/pexels-ken-tomita-127057-389818_cbhykx.jpg" alt="mechanic" width="413" height="280">
+            </picture>
+        </div>
+        <div class="cs-content">
+            <span class="cs-topper">About us</span>
+            <h2 class="cs-title">Empowering Small Businesses with Custom Websites Designed for Success</h2>
+            <p class="cs-text">
+                At T-Pone Studios, we specialize in professional website creation and AI-powered SEO to help your business thrive online. Our team is dedicated to building custom, user-friendly websites while optimizing them with smart SEO strategies to boost your visibility and drive growth. Let us craft a digital experience tailored to your unique business goals. With a blend of AI-driven tools and creative strategies, we empower small businesses to compete in the digital landscape, providing them with tools to grow and succeed.
+            </p>
+            <a href="#why-choose-892" class="cs-button-solid">Why Choose Us?</a>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- ============================================ -->
+<!--                 Why Choose Us                -->
+<!-- ============================================ -->
+<section id="why-choose-892">
+    <div class="cs-video-overlay"></div>
+    <video class="cs-background-video" autoplay muted loop>
+        <source src="https://res.cloudinary.com/divdez0bg/video/upload/v1741907761/space-video-3_fxmcux.webm" type="video/mp4">
+        <source src="https://res.cloudinary.com/divdez0bg/video/upload/v1741907761/space-video-3_fxmcux.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+    <div class="cs-background">
+        <div class="video-top-gradient"></div>
+        <div class="video-bottom-gradient"></div>
+    </div>
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Our Expertise</span>
+            <h2 class="cs-title">Why Choose Us?</h2>
+            <p class="cs-text">
+                With a focus on your unique needs, we deliver modern, responsive designs and provide ongoing support to ensure your website stays ahead of the curve and grows with your business.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <!-- Font Awesome Icon for Personalized Service -->
+                <div class="cs-icon">
+                    <i class="fas fa-user-circle" style="font-size: 48px;"></i>
+                </div>
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">Personalized Service</h3>
+                    <p class="cs-item-text">
+                        We take the time to understand your unique business needs, ensuring a website that truly reflects your brand and speaks to your target audience.
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <!-- Font Awesome Icon for Modern Design Approach -->
+                <div class="cs-icon">
+                    <i class="fas fa-mobile-alt" style="font-size: 48px;"></i>
+                </div>
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">Modern Design Approach</h3>
+                    <p class="cs-item-text">
+                        We focus on clean, user-friendly designs with responsive layouts that look great on any device, ensuring a seamless experience for your visitors.
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <!-- Font Awesome Icon for Ongoing Support -->
+                <div class="cs-icon">
+                    <i class="fas fa-cogs" style="font-size: 48px;"></i>
+                </div>
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">Ongoing Support</h3>
+                    <p class="cs-item-text">
+                        We're committed to your success, providing continuous website updates and optimization, ensuring your site evolves with your business and stays up-to-date.
+                    </p>
+                </div>
+            </li>
+        </ul>
+        <a href="contact.html" class="cs-button-solid">Contact Us</a>
+    </div>
+</section>
+
+
+
+
+
+<!-- ============================================ -->
+<!--                  Footer                      -->
+<!-- ============================================ -->
+
+<footer id="footer-1390">
+    <div class="cs-container">
+        <div class="cs-top">
+            <a aria-label="go back to home" class="cs-logo" href="">
+                <img class="cs-logo-img" loading="lazy" decoding="async" src="https://res.cloudinary.com/divdez0bg/image/upload/v1741982961/logo3_vb7d4n.png" alt="logo" width="209" height="40">
+            </a>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <a href="index.html" class="cs-link">Home</a>
+                </li>
+                <li class="cs-li">
+                    <a href="about.html" class="cs-link">About</a>
+                </li>
+                <li class="cs-li">
+                    <a href="services.html" class="cs-link">Services</a>
+                </li>
+                <li class="cs-li">
+                    <a href="pricing.html" class="cs-link">Pricing</a>
+                </li>
+                <li class="cs-li">
+                    <a href="studio-magic.html" class="cs-link">Studio Magic</a>
+                </li>
+                <li class="cs-li">
+                    <a href="studio-impact-initiative.html" class="cs-link">Studio Impact Initiative</a>
+                </li>
+                <li class="cs-li">
+                    <a href="faq.html" class="cs-link">FAQ</a>
+                </li>
+                <li class="cs-li">
+                    <a href="contact.html" class="cs-link">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="cs-bottom">
+            <div class="cs-flex">
+                <a href="" class="cs-copyright-link">Website created by</a>
+                <span class="cs-separater">|</span>
+                <a href="" class="cs-copyright-link">T-Pone Studios LLC</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

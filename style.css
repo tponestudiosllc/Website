@@ -2160,15 +2160,15 @@ html {
     }
     #footer-1390 .cs-bottom {
         flex-direction: row;
-        justify-content: center; /* Center align the content */
+        justify-content: space-between; /* Space between elements */
     }
     #footer-1390 .cs-flex {
-        margin: 0 auto; /* Center align the flex container */
+        margin-left: auto; /* Align to the far right */
     }
-    #footer-1390 .cs-social {
-        /* sends it to the right in the 3rd position */
-        order: 3;
-    }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode #footer-1390 {
 }
 /* Dark Mode */
 @media only screen and (min-width: 0rem) {
@@ -4272,5 +4272,6 @@ html {
 #addons-pricing-357 .cs-container {
     position: relative;
     z-index: 2; /* Increase z-index to ensure content appears above the gradient */
+}
 }
 }

@@ -3083,33 +3083,28 @@ html {
   overflow: hidden; /* Ensure the video doesn't overflow */
 }
 
-#cs-contact-490 .cs-video-overlay {
+#cs-contact-490 .cs-background-image {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
-  z-index: -1;
-}
-
-#cs-contact-490 .cs-background-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  background-size: cover;
+  background-position: center;
   z-index: -2;
 }
 
-#cs-contact-490 .cs-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -3;
+#cs-contact-490 .cs-video-overlay {
+  display: none; /* Remove video overlay */
+}
+
+#cs-contact-490 .cs-background-video {
+  display: none; /* Remove background video */
+}
+
+#cs-contact-490 .video-top-gradient,
+#cs-contact-490 .video-bottom-gradient {
+  display: none; /* Remove gradients */
 }
 
 #cs-contact-490 .video-top-gradient,
@@ -3914,6 +3909,17 @@ html {
   overflow: hidden; /* Ensure the video doesn't overflow */
 }
 
+#services-1663 .cs-background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('./images/line-image-2.jpg') no-repeat center center;
+  background-size: cover;
+  z-index: -2;
+}
+
 #services-1663 .cs-video-overlay {
   position: absolute;
   top: 0;
@@ -3924,32 +3930,13 @@ html {
   z-index: -1;
 }
 
-#services-1663 .cs-background-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -2;
-}
-
-#services-1663 .cs-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -3;
-}
-
 #services-1663 .video-top-gradient,
 #services-1663 .video-bottom-gradient {
   position: absolute;
   left: 0;
   width: 100%;
   height: 20%; /* Adjust for gradient height */
-  z-index: 1; /* Ensure it is above the video */
+  z-index: 1; /* Ensure it is above the background */
 }
 
 #services-1663 .video-top-gradient {
@@ -3962,11 +3949,6 @@ html {
   background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); /* Black to transparent */
 }
 
-
-
-
-
-
 /*-- -------------------------- -->
 <---            FAQ             -->
 <--- -------------------------- -*/
@@ -3975,11 +3957,22 @@ html {
 @media only screen and (min-width: 0rem) {
   #faq-1261 {
       padding: var(--sectionPadding);
-      background-color: #14142b;
       position: relative;
       overflow: hidden;
       z-index: 1;
   }
+
+  #faq-1261 .cs-background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+  }
+
   #faq-1261 .cs-container {
       width: 100%;
       /* chnages to 1280px at desktop */
@@ -4026,7 +4019,7 @@ html {
   #faq-1261 .cs-faq-item {
       list-style: none;
       width: 100%;
-      background-color: #303044;
+      background-color: transparent; /* Remove background color */
       border-radius: 0.5rem;
       padding: 0;
       box-sizing: border-box;
@@ -4194,6 +4187,52 @@ html {
     border: 1px solid #e8e8e8;
     border-radius: 0.5rem;
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+#hero-82 .cs-background-image,
+#services-1301 .cs-background-image,
+#sbsr-1592 .cs-background-image,
+#sbs-2295 .cs-background-image,
+#why-choose-892 .cs-background-image,
+#reviews-508 .cs-background-image,
+#pricing-357 .cs-background-image,
+#cta-1071 .cs-background-image,
+#cs-contact-490 .cs-background-image,
+#steps-1171 .cs-background-image,
+#timeline-1517 .cs-background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+}
+
+#pricing-357 .cs-background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+}
+
+.hero-video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    pointer-events: none;
+}
+
+.white-text {
+    color: white;
 }
 
 

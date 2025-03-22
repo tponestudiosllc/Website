@@ -121,8 +121,29 @@ html {
 }
 
 .cs-icon {
-  color: #9370DB; /* Makes all icons purple */
-  font-size: 2rem; /* Increase icon size */
+  width: 40px;  /* Adjust size as needed */
+  height: auto;
+  filter: #7A5CDC
+}
+
+/* AI-Driven Optimization */
+.cs-picture img[alt="AI-Driven Optimization Icon"] {
+  width: 40px;
+}
+
+/* Real-Time Performance Tracking */
+.cs-picture img[alt="Real-Time Performance Tracking Icon"] {
+  width: 50px;
+}
+
+/* AI-Driven Keyword Optimization */
+.cs-picture img[alt="AI-Driven Keyword Optimization Icon"] {
+  width: 45px;
+}
+
+/* Self-Healing SEO */
+.cs-picture img[alt="Self-Healing SEO Icon"] {
+  width: 42px;
 }
 
 .cs-padding {

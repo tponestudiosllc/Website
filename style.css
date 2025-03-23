@@ -1524,6 +1524,45 @@ html {
     border-color: var(--medium);
 }
 
+#sbs-2295 .cs-picture {
+    width: 100%;
+    height: auto;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#sbs-2295 .cs-picture img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#sbs-2295 .cs-image-group {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+#sbs-2295 .cs-image-wrapper {
+    text-align: center;
+}
+
+#sbs-2295 .cs-image-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+}
+
+#sbs-2295 .cs-picture1,
+#sbs-2295 .cs-picture2 {
+    max-width: 300px;
+    max-height: 500px;
+}
+
 /*-- -------------------------- -->
 <---        Why Choose Us       -->
 <--- -------------------------- -*/

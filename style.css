@@ -2318,6 +2318,7 @@ html {
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem; /* Add some space between the cards */
+  z-index: 2; /* Ensure the card group is above the gradient */
 }
 
 #pricing-357 .cs-item {
@@ -2334,6 +2335,7 @@ html {
   /* prevents padding from adding to height and width */
   box-sizing: border-box;
   margin: 0 auto; /* Center each card */
+  z-index: 3; /* Ensure individual cards are above the gradient */
 }
 
 #pricing-357 .cs-item .cs-h3,

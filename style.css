@@ -27,24 +27,6 @@ body {
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: 'Inter';
-  src: url('fonts/Inter-Light.ttf') format('truetype');
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('fonts/Inter-Medium.ttf') format('truetype');
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('fonts/Inter-SemiBold.ttf') format('truetype');
-  font-weight: 600;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -496,7 +478,8 @@ html {
   }
 
   #cs-navigation .cs-nav-button:hover {
-    background-color: var(--primaryLight); /* Change background on hover */
+    background-color: white; /* Change background on hover */
+    color: #7A5CDC
   }
 }
 /* Dark Mode */
@@ -943,7 +926,7 @@ html {
       width: auto;
       margin: 0 0 1rem 0;
       filter: none; /* Remove hue-rotate filter */
-      fill: #9370DB; /* Set fill color to purple */
+      fill: #7A5CDC; /* Set fill color to purple */
   }
   #services-1301 .cs-h3 {
       /* 20px - 25px */
@@ -1015,6 +998,7 @@ html {
   }
 }
 
+
 /* Dark Mode */
 @media only screen and (min-width: 0rem) {
   body.dark-mode #services-1301 .cs-title,
@@ -1043,6 +1027,10 @@ html {
   }
 }
 
+#services-1301 {
+  padding-top: 10rem; /* Adjust this value as needed */
+  scroll-margin-top: 10rem; /* Ensures smooth scrolling stops above the section */
+}
                               
 
                               
@@ -2025,7 +2013,7 @@ html {
         display: block;
     }
     #reviews-508 .cs-location {
-        color: var(--bodyTextColorWhite); /* Change location text color to white */
+        color: white; /* Change location text color to white */
     }
 }
 /* Tablet - 768px */
@@ -2395,13 +2383,13 @@ html {
 }
 
 #pricing-357 .cs-popular .cs-button-solid {
-  background-color: black;
+  background-color: #7A5CDC;
   color: white;
   transition: color 0.3s;
 }
 
 #pricing-357 .cs-popular .cs-button-solid:before {
-  background-color: #9370DB;
+  background-color: black;
 }
 
 #pricing-357 .cs-popular .cs-button-solid:hover {
@@ -2621,36 +2609,54 @@ html {
   }
 }
 
+/* Updated Pricing Cards Animated Gradient Backgrounds */
 #pricing-357 .cs-item:nth-child(1) {
-    background: black
+  background: linear-gradient(270deg, #000000, #1a1a1a, #000000);
+  background-size: 600% 600%;
+  animation: gradientAnimation1 16s ease infinite;
 }
 
 #pricing-357 .cs-item:nth-child(2) {
-    background: rgba(147, 112, 219, 0.8); /* Purple background */
+  background: linear-gradient(270deg, #1a1a1a, #7A5CDC, #1a1a1a);
+  background-size: 600% 600%;
+  animation: gradientAnimation2 16s ease infinite;
 }
 
 #pricing-357 .cs-item:nth-child(3) {
-    background: rgba(255, 186, 67, 0.8); /* Gold background */
+  background: linear-gradient(270deg, #7A5CDC, #000000, #7A5CDC);
+  background-size: 600% 600%;
+  animation: gradientAnimation3 16s ease infinite;
 }
 
 #pricing-357 .cs-item:nth-child(4) {
-    background: rgba(67, 255, 186, 0.8); /* Green background */
+  background: linear-gradient(270deg, #7A5CDC, #000000, #7A5CDC);
+  background-size: 600% 600%;
+  animation: gradientAnimation4 16s ease infinite;
 }
 
-/* Dark Mode */
-@media only screen and (min-width: 0rem) {
-    body.dark-mode #pricing-357 .cs-item:nth-child(1) {
-        background: rgba(147, 112, 219, 0.8); /* Purple background */
-    }
-    body.dark-mode #pricing-357 .cs-item:nth-child(2) {
-        background: rgba(255, 186, 67, 0.8); /* Gold background */
-    }
-    body.dark-mode #pricing-357 .cs-item:nth-child(3) {
-        background: rgba(67, 186, 255, 0.8); /* Blue background */
-    }
-    body.dark-mode #pricing-357 .cs-item:nth-child(4) {
-        background: rgba(67, 255, 186, 0.8); /* Green background */
-    }
+/* Keyframes for gradient animations (same for all cards) */
+@keyframes gradientAnimation1 {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes gradientAnimation2 {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes gradientAnimation3 {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes gradientAnimation4 {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 /* Pricing Section Video Background */
@@ -2737,8 +2743,6 @@ html {
   box-sizing: border-box;
   margin: 0 auto; /* Center each card */
 }
-
-
 
 /*-- -------------------------- -->
 <---            CTA             -->
@@ -3309,7 +3313,7 @@ html {
   }
 
   #steps-1171 .cs-topper {
-      color: linear-gradient(90deg, #9370DB, white);
+      color: linear-gradient(90deg, #7A5CDC, white);
   }
   #steps-1171 .cs-title,
   #steps-1171 .cs-text {
@@ -3563,7 +3567,7 @@ html {
     align-items: center;
   }
   #timeline-1517 .cs-topper {
-    color: linear-gradient(90deg, #9370DB, white);
+    color: linear-gradient(90deg, #7A5CDC, white);
   }
   #timeline-1517 .cs-title {
     max-width: 20ch;
@@ -3949,7 +3953,7 @@ html {
     line-height: 1.2em;
     font-weight: 700;
     margin: 0;
-    color: #9370DB;
+    color: #7A5CDC;
     display: flex;
     justify-content: flex-start;
     align-items: center;

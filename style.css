@@ -674,7 +674,6 @@ html {
     justify-content: center;
     text-align: center;
     padding-top: 12vh;
-    background-image: url('./images/hero-background.jpg'); /* Add image background */
     background-size: cover;
     background-position: center;
 }
